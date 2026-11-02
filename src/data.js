@@ -118,7 +118,7 @@ export const listSertifikat  = [
     sumber: "BNSP",
     tahun: "2025-2028",
     dad: 100,
-    path: null,
+    path: "https://drive.google.com/file/d/1b2VXSUexxP1x0eq-2-KixSDoRheXrQBK/view?usp=sharing",
   },
   {
     id: 2,
@@ -130,7 +130,7 @@ export const listSertifikat  = [
     sumber: "BNSP",
     tahun: "2026-2029",
     dad: 200,
-    path: null,
+    path: "https://drive.google.com/file/d/1fPp_9g_hPdZx4vaiurYQ3vi-cMLD0X4F/view?usp=sharing",
   },
   {
     id: 3,
@@ -142,7 +142,7 @@ export const listSertifikat  = [
     sumber: "Kementerian Ketenagakerjaan",
     tahun: "2026",
     dad: 200,
-    path: null,
+    path: "https://drive.google.com/file/d/1uuVjxML1abvSYRPFvH3nrG0e1BrZOg8w/view?usp=sharing",
   },
 ];
 
