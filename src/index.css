@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  html {
+    scrollbar-gutter: stable;
+  }
+
+  .modal-scroll {
+    /* standar (Firefox, Chrome 121+, Safari 18.2+): tipis, tanpa panah */
+    scrollbar-width: thin;
+    scrollbar-color: #a1a1aa transparent;
+    /* warna thumb | warna track */
+  }
+
+  /* cadangan untuk browser lama berbasis WebKit */
+  .modal-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .modal-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .modal-scroll::-webkit-scrollbar-thumb {
+    background: #a1a1aa;
+    border-radius: 9999px;
+  }
+
+  .modal-scroll::-webkit-scrollbar-thumb:hover {
+    background: #a1a1aa;
+  }
+
+  .modal-scroll::-webkit-scrollbar-button {
+    display: none;
+    /* hilangkan panah atas/bawah */
+  }
+}
