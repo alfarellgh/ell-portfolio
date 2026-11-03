@@ -18,7 +18,7 @@ function App() {
             <q>{t("heroQuote")}</q>
           </div>
           <h1 className="text-3xl md:text-5xl/tight font-bold mb-6">{t("heroTitle")}</h1>
-          <p className="text-base/loose mb-6 opacity-50 text-justify">{t("heroDesc")}</p>
+          <p className="text-sm/loose lg:text-base/loose mb-6 opacity-50 text-justify">{t("heroDesc")}</p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a href="#" className="bg-sky-500 p-4 rounded-4xl hover:bg-sky-400 text-sm lg:text-base text-white">
               {t("heroBtnCV")} <i className="ri-download-line ri-lg"></i>
@@ -36,7 +36,7 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 shadow-lg bg-white rounded-lg border border-zinc-300" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <h1 className="font-bold mb-5 text-lg">{t("tentangTitle")}</h1>
-          <p className="textbase/loose mb-10 text-justify">{t("tentangDesc")}</p>
+          <p className="text-sm/loose lg:textbase/loose mb-10 text-justify">{t("tentangDesc")}</p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-12 rounded-md sm:block hidden" loading="lazy" />
             <div className="flex items-center gap-6">
@@ -132,19 +132,19 @@ function App() {
         <form action="https://formsubmit.co/alfarellgh@gmail.com" method="POST" className="border border-zinc-300 shadow-xl p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
-              <label className="font-semibold">{t("formNama")}</label>
-              <input type="text" name="nama" placeholder={t("formNamaPlaceholder")} className="border border-zinc-500 p-2 rounded-md" required />
+              <label className="font-semibold text-sm lg:text-base">{t("formNama")}</label>
+              <input type="text" name="nama" placeholder={t("formNamaPlaceholder")} className="border border-zinc-500 p-2 rounded-md text-sm lg:text-base" required />
             </div>
             <div className="flex flex-col gap-2">
-              <label className="font-semibold">{t("formEmail")}</label>
-              <input type="email" name="email" placeholder={t("formEmailPlaceholder")} className="border border-zinc-500 p-2 rounded-md" required />
+              <label className="font-semibold text-sm lg:text-base">{t("formEmail")}</label>
+              <input type="email" name="email" placeholder={t("formEmailPlaceholder")} className="border border-zinc-500 p-2 rounded-md text-sm lg:text-base" required />
             </div>
             <div className="flex flex-col gap-2">
-              <label htmlFor="pesan" className="font-semibold">{t("formPesan")}</label>
-              <textarea name="pesan" id="pesan" cols="45" rows="7" placeholder={t("formPesanPlaceholder")} className="border border-zinc-500 p-2 rounded-md" required></textarea>
+              <label htmlFor="pesan" className="font-semibold text-sm lg:text-base">{t("formPesan")}</label>
+              <textarea name="pesan" id="pesan" cols="45" rows="7" placeholder={t("formPesanPlaceholder")} className="border border-zinc-500 p-2 rounded-md text-sm lg:text-base" required></textarea>
             </div>
             <div className="text-center">
-              <button type="submit" className="bg-sky-500 p-3 rounded-lg w-full cursor-pointer hover:bg-sky-600 text-white">{t("formSubmit")}</button>
+              <button type="submit" className="bg-sky-500 p-3 rounded-lg w-full cursor-pointer hover:bg-sky-600 text-white text-sm lg:text-base">{t("formSubmit")}</button>
             </div>
           </div>
         </form>
