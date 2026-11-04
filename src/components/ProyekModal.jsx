@@ -72,14 +72,14 @@ const ProyekModal = ({ proyek, onClose }) => {
               </div>
               <div className="grid grid-cols-1 gap-3 md:flex">
                 {proyek.path ? (
-                  <Link
+                  <a
                     to={proyek.path}
                     className="w-full p-3 shadow-sm rounded-lg text-center bg-white border border-zinc-300 hover:bg-zinc-100 text-sm lg:text-base"
                   >
                     <i className="ri-global-line pr-2"></i>{t("proyekLink")}
-                  </Link>
+                  </a>
                 ) : (
-                  <p className="w-full p-3 rounded-lg text-center bg-zinc-300 text-zinc-600 cursor-not-allowed text-sm lg:text-base">
+                  <p className="hidden">
                     {t("proyekDeploy")}
                   </p>
                 )}

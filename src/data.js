@@ -231,7 +231,7 @@ export const listProyek = [
     },
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "400",
-    path: "https://alfarellgh.github.io/ell-portfolio/",
+    path: null,
     paper: null,
     code: "https://github.com/alfarellgh/ell-portfolio",
   },
