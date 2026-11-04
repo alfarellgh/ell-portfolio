@@ -20,7 +20,7 @@ function App() {
           <h1 className="text-3xl md:text-5xl/tight font-bold mb-6">{t("heroTitle")}</h1>
           <p className="text-sm/loose lg:text-base/loose mb-6 opacity-50 text-justify">{t("heroDesc")}</p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a href="#" className="bg-sky-500 p-4 rounded-4xl hover:bg-sky-400 text-sm lg:text-base text-white">
+            <a href="https://drive.google.com/uc?export=download&id=1EA86mkvbwBB4ZXE4DkdRAGnFFfQlb4sV" className="bg-sky-500 p-4 rounded-4xl hover:bg-sky-400 text-sm lg:text-base text-white">
               {t("heroBtnCV")} <i className="ri-download-line ri-lg"></i>
             </a>
             <a href="#proyek" className="bg-zinc-200 p-4 rounded-4xl hover:bg-zinc-300">
@@ -36,7 +36,7 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 shadow-lg bg-white rounded-lg border border-zinc-300" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <h1 className="font-bold mb-5 text-lg">{t("tentangTitle")}</h1>
-          <p className="text-sm/loose lg:textbase/loose mb-10 text-justify">{t("tentangDesc")}</p>
+          <p className="text-sm/loose lg:text-base/loose mb-10 text-justify">{t("tentangDesc")}</p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-12 rounded-md sm:block hidden" loading="lazy" />
             <div className="flex items-center gap-6">

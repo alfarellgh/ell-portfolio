@@ -107,7 +107,7 @@ export const listTools = [
   },
 ];
 
-export const listSertifikat  = [
+export const listSertifikat = [
   {
     id: 1,
     gambar: Proyek1up,
@@ -170,8 +170,8 @@ export const listProyek = [
     },
     kategori: ["Internship", "Diploma Final Project"],
     desk: {
-      ID: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-      EN: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+      ID: "Aplikasi permohonan barang dan pengelolaan data untuk Dit. Standalitu, Kementerian Perdagangan.",
+      EN: "An item request and data management application for Dit. Standalitu, Ministry of Trade.",
     },
     detail: {
       ID: "Aplikasi SIPERA sangat dibutuhkan oleh karyawan Direktorat Standardisasi dan Pengendalian Mutu (Dit. Standalitu), Kementerian Perdagangan. Proses pengisian Form Permohonan Barang perlu didukung oleh sistem yang dapat diakses kapan saja dan di mana saja oleh para karyawan. Tata kelola digital diperlukan agar admin dapat dengan mudah menghimpun dan mengelola data barang maupun transaksi secara efisien.\n\nSIPERA hadir sebagai solusi yang mampu menyediakan layanan pengelolaan data dan informasi secara tepat dan akurat, serta mendukung proses input form yang lebih efisien guna meminimalkan human error (kesalahan akibat faktor manusia).",
@@ -179,9 +179,9 @@ export const listProyek = [
     },
     tools: ["PHP", "Bootstrap", "Laravel", "MySQL"],
     dad: "200",
-    path: "https://drive.google.com/file/d/1Ef8EurB_ZvvIqqxu6pegp-zdOrlHE2pe/view?usp=sharing",
+    path: null,
     paper: "https://drive.google.com/file/d/1Ef8EurB_ZvvIqqxu6pegp-zdOrlHE2pe/view?usp=sharing",
-    code: "https://drive.google.com/file/d/1Ef8EurB_ZvvIqqxu6pegp-zdOrlHE2pe/view?usp=sharing",
+    code: "https://github.com/alfarellgh/FormPersediaan/tree/master",
   },
   {
     id: 2,
@@ -196,18 +196,18 @@ export const listProyek = [
     },
     kategori: ["Dummy Project"],
     desk: {
-      ID: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-      EN: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+      ID: "Website company profile dummy untuk brand produk rajut crochet.",
+      EN: "A dummy company profile website for a crochet products brand.",
     },
     detail: {
-      ID: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis explicabo et. Repellat sapiente recusandae, eligendi odit aperiam necessitatibus sed?",
-      EN: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis explicabo et. Repellat sapiente recusandae, eligendi odit aperiam necessitatibus sed?",
+      ID: "JIE'CROCHE adalah proyek dummy company profile yang saya buat untuk menggambarkan sebuah brand produk rajut crochet. Website ini memperkenalkan profil brand, ragam produk, dan cerita di balik setiap karya kepada calon pelanggan.\n\nProyek ini saya buat sebagai latihan merancang tampilan company profile yang rapi dan menarik, dengan layout responsif agar nyaman dibuka di perangkat apa pun, serta animasi halus saat halaman di-scroll untuk memberikan pengalaman pengguna yang lebih hidup.",
+      EN: "JIE'CROCHE is a dummy company profile project I built to represent a crochet products brand. The website introduces the brand profile, its range of products, and the story behind each handmade piece to potential customers.\n\nI built this project as practice in designing a clean and engaging company profile, with a responsive layout that works comfortably on any device, plus smooth scroll animations to create a more lively user experience.",
     },
-    tools: ["Vite", "ReactJS", "Tailwind"],
+    tools: ["Vite", "ReactJS", "TailwindCSS"],
     dad: "300",
     path: null,
     paper: null,
-    code: "https://drive.google.com/file/d/1Ef8EurB_ZvvIqqxu6pegp-zdOrlHE2pe/view?usp=sharing",
+    code: null,
   },
   {
     id: 3,
@@ -222,18 +222,18 @@ export const listProyek = [
     },
     kategori: ["Dummy Project"],
     desk: {
-      ID: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-      EN: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+      ID: "Website portfolio pribadi dua bahasa (ID/EN) yang menampilkan profil, pengalaman, proyek, dan sertifikat.",
+      EN: "A bilingual (ID/EN) personal portfolio website showcasing my profile, experience, projects, and certificates.",
     },
     detail: {
-      ID: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis explicabo et. Repellat sapiente recusandae, eligendi odit aperiam necessitatibus sed?",
-      EN: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis explicabo et. Repellat sapiente recusandae, eligendi odit aperiam necessitatibus sed?",
+      ID: "Web Portfolio adalah website pribadi yang saya bangun untuk memperkenalkan diri, pengalaman, dan karya-karya saya dalam satu halaman. Isinya mencakup profil singkat, riwayat pendidikan dan pengalaman dalam bentuk timeline, tools yang saya gunakan, sertifikat, daftar proyek, hingga formulir kontak.\n\nWebsite ini dibuat dengan ReactJS dan Vite, di-styling menggunakan TailwindCSS, serta dilengkapi animasi scroll dengan AOS. Beberapa fitur yang saya kembangkan: pilihan bahasa Indonesia dan Inggris, navigasi yang otomatis menandai bagian halaman yang sedang dilihat, pop up detail untuk tiap proyek, dan tampilan responsif yang nyaman dibuka dari desktop maupun ponsel.",
+      EN: "Web Portfolio is a personal website I built to present myself, my experience, and my work on a single page. It covers a short profile, an education and experience timeline, the tools I use, certificates, a list of projects, and a contact form.\n\nThe site is built with ReactJS and Vite, styled with TailwindCSS, and enhanced with scroll animations using AOS. Features I developed include an Indonesian/English language switch, a navigation that automatically highlights the section currently in view, a detail pop up for each project, and a responsive layout that works comfortably on both desktop and mobile.",
     },
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "400",
-    path: null,
+    path: "https://alfarellgh.github.io/ell-portfolio/",
     paper: null,
-    code: null,
+    code: "https://github.com/alfarellgh/ell-portfolio",
   },
   // {
   //   id: 4,
