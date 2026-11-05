@@ -70,7 +70,7 @@ const Navbar = () => {
         <h1 className="text-3xl font-bold text-black p-1">Portfolio</h1>
         <LanguageSelector />
       </div>
-      <ul className={`menu flex items-center sm:gap-10 gap-10 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white backdrop-blur-md md:p-4 p-6 rounded-tr-2xl rounded-tl-2xl md:bg-transparent transition-all md:transition-none z-40 ${scrolled ? "bottom-0 opacity-100" : "-bottom-10 opacity-0"}`}>
+      <ul className={`menu flex w-full border border-zinc-300 md:border-none md:w-auto justify-center sm:gap-10 gap-15 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white md:p-4 p-6 rounded-tl-2xl rounded-tr-2xl md:bg-transparent transition-all md:transition-none z-40 ${scrolled ? "bottom-0 opacity-100" : "-bottom-10 opacity-0"}`}>
         {menuItems.map((item) => {
           const isActive = activeMenu === item.id;
           return (

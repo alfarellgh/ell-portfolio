@@ -19,7 +19,7 @@ function App() {
           </div>
           <h1 className="text-3xl md:text-5xl/tight font-bold mb-6">{t("heroTitle")}</h1>
           <p className="text-sm/loose lg:text-base/loose mb-6 opacity-50 text-justify">{t("heroDesc")}</p>
-          <div className="flex items-center sm:gap-4 gap-2">
+          <div className="flex items-center sm:gap-4 gap-2"> 
             <a href="https://drive.google.com/uc?export=download&id=1EA86mkvbwBB4ZXE4DkdRAGnFFfQlb4sV" className="bg-sky-500 p-4 rounded-4xl hover:bg-sky-400 text-sm lg:text-base text-white">
               {t("heroBtnCV")} <i className="ri-download-line ri-lg"></i>
             </a>
