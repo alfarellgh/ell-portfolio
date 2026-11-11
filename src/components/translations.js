@@ -7,7 +7,7 @@ export const translations = {
     kontak: "Kontak",
 
     // Hero
-    heroQuote: "Kode yang indah, lahir dari ketekunan.😼",
+    heroQuote: "Kode yang indah, lahir dari ketekunan.",
     heroTitle: "Hi, Saya Al Farell Ghazali",
     heroDesc: "Saya mempunyai ketertarikan dalam bidang Programming dan Designer, terutama pada pembuatan Website dan Desain seperti Poster, Pamflet serta Banner, ketertarikan pada bidang ini sudah berlangsung lebih dari 4 Tahun untuk semua Bidang.",
     heroBtnCV: "Download CV",
@@ -56,7 +56,7 @@ export const translations = {
     Kontak: "Contact",
 
     // Hero
-    heroQuote: "Beautiful code is born from dedication.😼",
+    heroQuote: "Beautiful code is born from dedication",
     heroTitle: "Hi, I'm Al Farell Ghazali",
     heroDesc: "I have an interest in Programming and Design, especially in building Websites and Designs such as Posters, Pamphlets, and Banners — an interest I've pursued for more than 4 years across all these fields.",
     heroBtnCV: "Download CV",
