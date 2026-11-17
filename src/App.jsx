@@ -44,10 +44,10 @@ function App() {
                 <h1 className="text-4xl mb-1">3<span className="text-sky-500">+</span></h1>
                 <p>{t("statProyek")}</p>
               </div>
-              <div>
+              {/* <div>
                 <h1 className="text-4xl mb-1">1<span className="text-sky-500">+</span></h1>
                 <p>{t("statTahun")}</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
